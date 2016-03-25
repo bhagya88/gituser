@@ -1,7 +1,9 @@
-<div ng-controller="UserController">
+
+
+<div class="form-group" ng-controller="UserController">
   
   <form ng-submit="getUserDetails()">
-    <input type="text" ng-model="userName">
+    <lable>Enter a valid Github id :  </label><input type="text" ng-model="userName">
   </form>
 
   <p> id: {{userInfo.id}}</p>
